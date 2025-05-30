@@ -1,0 +1,18 @@
+{
+  "$schema": "https://wails.io/schemas/config.v2.json",
+  "name": "tsdoa",
+  "outputfilename": "tsdoa",
+  "wailsjsdir": "./frontend",
+  "frontend:install": "pnpm install",
+  "frontend:build": "pnpm build",
+  "frontend:dev:watcher": "pnpm dev",
+  "frontend:dev:serverUrl": "auto",
+  "author": {
+    "name": "Anil Kumar",
+    "email": "155140399+akryptic@users.noreply.github.com"
+  },
+  "info": {
+    "copyright": "Copyright 2025 Akryptic",
+    "comments": "https://github.com/akryptic"
+  }
+}
