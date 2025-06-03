@@ -85,7 +85,7 @@ mv squashfs-root "$APPIMAGE_FS"
 # Copy AppRun (make sure you have AppRun in your repo or build process)
 cat > "$LINUX_PACKAGING/AppRun" <<EOF
 #!/bin/bash
-exec $APPDIR/usr/local/bin/tsdoa
+exec \$APPDIR/usr/local/bin/tsdoa
 EOF
 
 chmod +x "$LINUX_PACKAGING/AppRun"
