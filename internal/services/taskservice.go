@@ -44,7 +44,7 @@ func (ts *TaskService) CreateTask(title string) error {
 	// Create a deafault step for the task
 	defaultStep := &models.Step{
 		Id:        uuid.New().String(),
-		Title:     "I won't allow you to create a task without a step 😈, ( But you can delete it anhyways 🤪 )",
+		Title:     "I won't allow you to create a task without a step 😈, ( But you can delete it anyways 🤪 )",
 		Done:      false,
 		CreatedAt: time.Now(),
 	}
